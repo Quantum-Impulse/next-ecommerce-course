@@ -98,6 +98,8 @@ const ProductView: FC<Props> = ({ product }) => {
             )}
             <div className="pb-14 break-words w-full max-w-xl text-lg">
               { product.description }
+              {}
+              {(product.name) == "Cool Hat" ? (product.name) : null}
             </div>
           </section>
           <div>
